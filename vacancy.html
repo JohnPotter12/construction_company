@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>VitaBuild Group</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.ico" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/venobox/venobox.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!--==========================
+    Header
+  ============================-->
+  <header id="header" class="header-fixed">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <!-- <h1><a href="#main">C<span>o</span>nf</a></h1>-->
+        <a href="#intro" class="scrollto"><img src="img/logo_line.png" alt="" title=""></a>
+      </div>
+
+     <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li><a href="index.html">Головна</a></li>
+          <li><a href="index.html#about">Про нас</a></li>
+          <li><a href="index.html#speakers">Послуги</a></li>
+          <li><a href="cash.html">Ціни</a></li>
+          <li><a href="gallery.html">Галерея</a></li>
+          <li class="menu-active"><a href="">Вакансії</a></li>
+          <li><a href="index.html#contact">Контакти</a></li>
+          <!-- <li class="buy-tickets"><a href="#buy-tickets">Замовити</a></li> -->
+        </ul>
+      </nav>
+    </div>
+  </header><!-- #header -->
+
+  <main id="main" class="main-page">
+
+    <!--==========================
+      Vacancy Section
+    ============================-->
+    <section id="vacancy" class="wow fadeIn">
+      <div class="container">
+        <div class="section-header">
+          <h2>Компанія потребує фахівців та професіоналів <br> Приєднуйся до команди VitaBuild Group </h2>
+          <p>Ознайомтесь за вимогами, запоняйте заявку та надсилайте. <br> Наш менеджер зв'яжиться з нами в найближчий час</p>
+        </div>
+
+        
+
+        <div class="row">
+          <div class="col-md-7">
+            <img src="img/vacancy.jpeg" alt="Speaker 1" class="img-fluid" style="padding-bottom: 30px;">
+            <div class="debitis">
+             </div>
+            <div class="quest2">
+              <div style="text-align: center;">
+                <h2>Анкета кандидата</h2>
+              </div>
+              <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="FirstName">Ім'я</label>
+                  <input type="text" class="form-control" placeholder="Ім'я" aria-label="First name" id="firstName">
+                </div>
+                <div class="col-md-6">
+                  <label for="LastТame" class="form-label">Прізвище</label>
+                      <input type="text" class="form-control" placeholder="Прізвище" aria-label="Last name" id="lastName">
+                </div>
+                 <div class="col-6">
+                  <label for="dateofbirthday" class="form-label">Дата народження</label>
+                  <input type="date" class="form-control" id="dateofbirthday" placeholder="01.01.2000" value="2026-01-29" min="1970-01-01" max="2026-12-31">
+                </div>
+
+                <!-- 
+                <input type="date" id="currentDate">
+
+                <script>
+                  // Получаем текущую дату и преобразуем её в ISO формат (YYYY-MM-DD...)
+                  // Метод split('T')[0] отрезает всё лишнее после даты
+                  document.getElementById('currentDate').value = new Date().toISOString().split('T')[0];
+                </script>
+
+                const dateInput = document.getElementById('currentDate');
+                const today = new Date().toISOString().split('T')[0];
+
+                dateInput.value = today; // Ставим дату сегодня
+                dateInput.min = today;   // Запрещаем выбирать вчера и раньше
+                -->
+                <div class="col-6">
+                  <label class="visually-hidden" for="experience">Досвід роботи</label>
+                  <select class="form-select" id="experience">
+                    <option selected value="0">від 3 до 5 років</option>
+                    <option value="1">від 5 до 10 років</option>
+                    <option value="2">від 10 до 15 років</option>
+                    <option value="3">від 15 років</option>
+                  </select>
+                </div>
+ 
+                <div class="col-6">
+                  <label for="numberPhone" class="form-label">Номер телефону</label>
+                  <input type="text" class="form-control" id="numberPhone" placeholder="Номер телефону">
+                </div>
+
+                <div class="col-6">
+                  <label for="jobTitle" class="form-label">Посада</label>
+                  <input type="text" class="form-control" id="jobTitle" placeholder="Посада">
+                </div>
+
+                <div class="col-12">
+                  <label for="email" class="form-label">Електронна пошта</label>
+                  <input type="text" class="form-control" id="email" placeholder="Пошта">
+                </div>
+
+                <div class="col-12">
+                  <label for="textExperience">Розкажіть про досвід роботи</label>
+                  <div class="input-group">
+                    <textarea class="form-control" aria-label="With textarea" id="textExperience"></textarea>
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <label for="textExperience">Вкажіть свої вміння та навички</label>
+                  <div class="input-group">
+                    <textarea class="form-control" aria-label="With textarea" id="textExperience"></textarea>
+                  </div>
+                </div>
+
+                <div class="col-12" style="margin-top: 30px; text-align: center !important;">
+                  <button type="submit" >Надіслати</button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div class="col-md-5">
+            <div class="details">
+              <h2>Спеціальності набору</h2>
+
+              <ul>
+                <li>Маляр-штукатур</li>
+                <li>Монтажник</li>
+                <li>Електрик</li>
+                <li>Оператор будівельних машин</li>
+                <li>Інженер-будівельник</li>
+                <li>Інженер-кошторисник</li>
+                <li>Фахівець із BIM-технологій</li>
+                <li>Сантехнік</li>
+              </ul>
+
+              <h2>Вимоги до кандидатів</h2>
+
+              <ul>
+                <li>Знає технології оздоблювальних та ремонтних робіт</li>
+                <li>Працює якісно та відповідально</li>
+                <li>Позитивно налаштований та готовий до виконано робіт</li>
+                <li>Вік від 22 до 45 років</li>
+                <li>Досвід роботи від 3-х років по спеціальності</li>
+                <li>Обов'язково має досвід роботи у сфері будівництва, 
+ремонту та оздоблення: квартир, будинків, комерційних приміщень</li>
+                <!-- <li>Обов'язково зі своїм інструментом</li> -->
+              </ul>
+
+              <h2>Умови</h2>
+              <ul>
+                <li>Знає технології оздоблювальних та ремонтних робіт</li>
+                <li>Працює якісно та відповідально</li>
+                <li>Позитивно налаштований та готовий до виконано робіт</li>
+                <li>Вік від 22 до 45 років</li>
+                <li>Досвід роботи від 3-х років по спеціальності</li>
+                <li>Обов'язково має досвід роботи у сфері будівництва, 
+ремонту та оздоблення: квартир, будинків, комерційних приміщень</li>
+                <!-- <li>Обов'язково зі своїм інструментом</li> -->
+              </ul>
+              <!-- <div class="social">
+                <a href=""><i class="fa fa-twitter"></i></a>
+                <a href=""><i class="fa fa-facebook"></i></a>
+                <a href=""><i class="fa fa-google-plus"></i></a>
+                <a href=""><i class="fa fa-linkedin"></i></a>
+              </div> -->
+            
+            </div>
+          </div>
+          <div class="quest3">
+              <div style="text-align: center;">
+                <h2>Анкета кандидата</h2>
+              </div>
+              <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="FirstName">Ім'я</label>
+                  <input type="text" class="form-control" placeholder="Ім'я" aria-label="First name" id="firstName">
+                </div>
+                <div class="col-md-6">
+                  <label for="LastТame" class="form-label">Прізвище</label>
+                      <input type="text" class="form-control" placeholder="Прізвище" aria-label="Last name" id="lastName">
+                </div>
+                 <div class="col-6">
+                  <label for="dateofbirthday" class="form-label">Дата народження</label>
+                  <input type="date" class="form-control" id="dateofbirthday" placeholder="01.01.2000" value="2026-01-29" min="1970-01-01" max="2026-12-31">
+                </div>
+
+                <!-- 
+                <input type="date" id="currentDate">
+
+                <script>
+                  // Получаем текущую дату и преобразуем её в ISO формат (YYYY-MM-DD...)
+                  // Метод split('T')[0] отрезает всё лишнее после даты
+                  document.getElementById('currentDate').value = new Date().toISOString().split('T')[0];
+                </script>
+
+                const dateInput = document.getElementById('currentDate');
+                const today = new Date().toISOString().split('T')[0];
+
+                dateInput.value = today; // Ставим дату сегодня
+                dateInput.min = today;   // Запрещаем выбирать вчера и раньше
+                -->
+                <div class="col-6">
+                  <label class="visually-hidden" for="experience">Досвід роботи</label>
+                  <select class="form-select" id="experience">
+                    <option selected value="0">від 3 до 5 років</option>
+                    <option value="1">від 5 до 10 років</option>
+                    <option value="2">від 10 до 15 років</option>
+                    <option value="3">від 15 років</option>
+                  </select>
+                </div>
+ 
+                <div class="col-6">
+                  <label for="numberPhone" class="form-label">Номер телефону</label>
+                  <input type="text" class="form-control" id="numberPhone" placeholder="Номер телефону">
+                </div>
+
+                <div class="col-6">
+                  <label for="jobTitle" class="form-label">Посада</label>
+                  <input type="text" class="form-control" id="jobTitle" placeholder="Посада">
+                </div>
+
+                <div class="col-12">
+                  <label for="email" class="form-label">Електронна пошта</label>
+                  <input type="text" class="form-control" id="email" placeholder="Пошта">
+                </div>
+
+                <div class="col-12">
+                  <label for="textExperience">Розкажіть про досвід роботи</label>
+                  <div class="input-group">
+                    <textarea class="form-control" aria-label="With textarea" id="textExperience"></textarea>
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <label for="textExperience">Вкажіть свої вміння та навички</label>
+                  <div class="input-group">
+                    <textarea class="form-control" aria-label="With textarea" id="textExperience"></textarea>
+                  </div>
+                </div>
+
+                <div class="col-12" style="margin-top: 30px; text-align: center !important;">
+                  <button type="submit" >Надіслати</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!--==========================
+    Footer
+  ============================-->
+   <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <img src="img/logo_line.png" alt="VitaBuild Group">
+            <p>Всі права на матеріали, що публікуються на сайті (у тому числі дизайн) є об'єктами авторського права і належать компанії. Забороняється копіювання, розповсюдження (у тому числі шляхом копіювання на інші сайти та ресурси в Інтернеті) або інше використання інформації та об'єктів без попередньої згоди правовласника.</p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Корисні посилання</h4>
+            <ul>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Головна</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Про нас</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Послуги</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Ціни</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Політика конфіденційності</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Графік роботи</h4>
+            <div>
+              <ul>
+                <li> <i class="fa fa-angle-right"></i> Будні дні з 09:00 по 17:00</li>
+                <li> <i class="fa fa-angle-right"></i> Субота: з 10:00 по 15:00</li>
+                <li> <i class="fa fa-angle-right"></i> Неділя: вихідний день</li>
+                <!-- <li></li> -->
+              </ul>
+            </div>
+            <!-- <ul>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Home</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">About us</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Services</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Privacy policy</a></li>
+            </ul> -->
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Зв'яжіться з нами</h4>
+            <p>
+              A108 Adam Street <br>
+              New York, NY 535022<br>
+              United States <br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; ТОВ <strong>VitaBuild Group</strong>. Всі права захищено.
+      </div>
+      <div class="credits">
+        Розроблено компанією <a href="">VitaBuild Group</a>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/venobox/venobox.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
