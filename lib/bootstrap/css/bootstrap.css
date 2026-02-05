@@ -5363,9 +5363,10 @@ button.close {
 
 .modal-dialog {
   position: relative;
-  width: auto;
+  /* width: auto; */
   margin: 0.5rem;
   pointer-events: none;
+  height: 100vh;
 }
 
 .modal.fade .modal-dialog {

@@ -9,6 +9,7 @@
 # General
 --------------------------------------------------------------*/
 
+
 body {
   background: #fff;
   color: #2f3138;
@@ -109,7 +110,7 @@ h6 {
 }
 
 .section-header::before {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 60px;
@@ -176,8 +177,7 @@ h6 {
 
 #header #logo h1 span {
   color: #e6c375;
-    /* text-transform: none; */
-
+  /* text-transform: none; */
 }
 
 #header #logo h1 a,
@@ -522,8 +522,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #e6c375;
 
   /* text-transform: none; */
-
-
 }
 
 #intro p {
@@ -543,7 +541,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .play-btn::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   top: 50%;
@@ -559,7 +557,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .play-btn:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 120px;
   height: 120px;
@@ -588,7 +586,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .play-btn:hover::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   top: 50%;
@@ -628,12 +626,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
-
 /* 
               gallery page Section
  */
 
- .cont3st {
+.cont3st {
   width: 100%;
   padding-right: 25px;
   padding-left: 25px;
@@ -647,12 +644,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #gallerypage {
-  background: url("../img/logo_mobile.jpeg");
-  background-size: cover;      /* Зображення заповнює блок, не розтягуючись деформовано */
-  background-position: center; /* Центруємо картинку, щоб головне було посередині */
-  background-attachment: scroll; /* Важливо! На мобільних 'fixed' часто ламає фон */
-
-}
+    background: url("../img/logo_mobile.jpeg");
+    background-size: cover; /* Зображення заповнює блок, не розтягуючись деформовано */
+    background-position: center; /* Центруємо картинку, щоб головне було посередині */
+    background-attachment: scroll; /* Важливо! На мобільних 'fixed' часто ламає фон */
+  }
 }
 
 @media (min-width: 576px) {
@@ -661,12 +657,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #gallerypage {
-  background: url("../img/logo_mobile.jpeg");
-  background-size: cover;      /* Зображення заповнює блок, не розтягуючись деформовано */
-  background-position: center; /* Центруємо картинку, щоб головне було посередині */
-  background-attachment: scroll; /* Важливо! На мобільних 'fixed' часто ламає фон */
-
-}
+    background: url("../img/logo_mobile.jpeg");
+    background-size: cover; /* Зображення заповнює блок, не розтягуючись деформовано */
+    background-position: center; /* Центруємо картинку, щоб головне було посередині */
+    background-attachment: scroll; /* Важливо! На мобільних 'fixed' часто ламає фон */
+  }
 }
 
 @media (min-width: 768px) {
@@ -675,16 +670,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #gallerypage {
-  background: url("../img/logo_mobile.jpeg");
-  background-size: cover;
-  background-attachment: fixed; 
-  background-position: center;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  position: relative;
-  color: #fff;
-  padding: 60px 0 40px 0;
-}
+    background: url("../img/logo_mobile.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    padding: 60px 0 40px 0;
+  }
 }
 
 @media (min-width: 992px) {
@@ -692,17 +687,17 @@ body.mobile-nav-active #mobile-nav-toggle {
     max-width: 1020px;
   }
 
-    #gallerypage {
-  background: url("../img/logo_mobile.jpeg");
-  background-size: cover;
-  background-attachment: fixed; 
-  background-position: center;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  position: relative;
-  color: #fff;
-  padding: 60px 0 40px 0;
-}
+  #gallerypage {
+    background: url("../img/logo_mobile.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    padding: 60px 0 40px 0;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -711,23 +706,22 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #gallerypage {
-  background: url("../img/logo.jpeg");
-  background-size: cover;
-  background-attachment: fixed; 
-  background-position: center;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  position: relative;
-  color: #fff;
-  padding: 60px 0 40px 0;
+    background: url("../img/logo.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    padding: 60px 0 40px 0;
+  }
 }
-}
-
 
 #gallerypage {
   /* background: url("../img/logo.jpeg"); */
   background-size: cover;
-  background-attachment: fixed; 
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -767,24 +761,22 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #000000;
 }
 
-#gallerypage .hotel{
+#gallerypage .hotel {
   background-color: #eee;
   padding: 10px;
   /* color: ; */
 }
 
-#gallerypage .pas2d{
+#gallerypage .pas2d {
   padding: 10px 10px;
   /* background-color: #eee; */
-
 }
 
 /* ------------------------------
 Services page 
 --------------------------*/
 
-
-  #servecespage {
+#servicespage {
   width: 100%;
   padding-right: 25px;
   padding-left: 25px;
@@ -793,44 +785,104 @@ Services page
 }
 
 @media (max-width: 576px) {
-  .servecespage {
+  .servicespage {
     max-width: 540px;
+  }
+
+  #servicespage {
+    background: url("../img/services/servicesBackground.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    padding: 60px 0 40px 0;
   }
 }
 
 @media (min-width: 576px) {
-  .servecespage {
+  .servicespage {
     max-width: 540px;
+  }
+
+  #servicespage {
+    background: url("../img/services/servicesBackground.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    padding: 60px 0 40px 0;
   }
 }
 
 @media (min-width: 768px) {
-  .servecespage {
+  .servicespage {
     max-width: 720px;
+  }
+
+  #servicespage {
+    background: url("../img/services/servicesBackground.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    padding: 60px 0 40px 0;
   }
 }
 
 @media (min-width: 992px) {
-  .servecespage {
+  .servicespage {
     max-width: 1020px;
+  }
+
+  #servicespage {
+    background: url("../img/services/servicesBackground.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    padding: 60px 0 40px 0;
   }
 }
 
 @media (min-width: 1200px) {
-  .servecespage {
+  .servicespage {
     max-width: 1240px;
   }
+
+  #servicespage {
+    background: url("../img/services/servicesBackground.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    padding: 60px 0 40px 0;
+  }
 }
+/* _________________________________________services______________________________________________ */
 
-
-#servecespage {
+#servicespage {
   overflow: hidden;
   position: relative;
   color: #fff;
   padding: 60px 0 40px 0;
 }
 
-#servecespage:before {
+#servicespage:before {
   content: "";
   background: rgba(13, 20, 41, 0.473);
   position: absolute;
@@ -840,14 +892,14 @@ Services page
   right: 0;
 }
 
-#servecespage h2 {
+#servicespage h2 {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 10px;
   color: #ffffff;
 }
 
-#servecespage h3 {
+#servicespage h3 {
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
@@ -855,36 +907,36 @@ Services page
   color: #ffffff;
 }
 
-#servecespage p {
+#servicespage p {
   font-size: 14px;
   margin-bottom: 10px;
   color: #ffffff;
 }
 
-#servecespage .serviceBlock{
+#servicespage .serviceBlock {
   background-color: #c29e51;
   padding: 10px;
   display: flex;
   flex-direction: column;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
-#servecespage .serviceBlock p {
+#servicespage .serviceBlock p {
   font-size: 14px;
   margin-bottom: 10px;
   color: #363636;
 }
 
-#servecespage .serviceBlock a {
-    color: #573b00;
-    transition: 0.5s;
+#servicespage .serviceBlock a {
+  color: #573b00;
+  transition: 0.5s;
 }
 
-#servecespage .pas2d{
+#servicespage .pas2d {
   padding: 10px 10px;
 }
 
-#servecespage .hotel-img {
+#servicespage .hotel-img {
   overflow: hidden;
   margin-bottom: 15px;
   height: 350px;
@@ -892,86 +944,89 @@ Services page
   position: relative;
 }
 
-#servecespage .hotel-img img {
+#servicespage .hotel-img img {
   width: 100%;
   object-fit: cover;
   display: block;
   transition: 0.3s ease-in-out;
   width: 100%;
-  height: 100%;     
+  height: 100%;
   border-style: none;
 }
 
-#servecespage .serviceBlock:hover .hotel-img img {
+#servicespage .serviceBlock:hover .hotel-img img {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
 
-#servecespage .hotel-img .image-overlay .image-overlay-position {
-    display: table;
-    width: 100%;
-    height: 100%;
-    position: relative;
+#servicespage .hotel-img .image-overlay .image-overlay-position {
+  display: table;
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
 
-#servecespage .serviceBlock:hover .hotel-img .image-overlay {
+#servicespage .serviceBlock:hover .hotel-img .image-overlay {
   position: absolute;
-    left: 0px;
-    bottom: 0px;
-    right: 0px;
-    text-align: center;
-    padding-top: 10px;
-    background: rgba(6, 12, 34, 0.596);
-    transition: 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  text-align: center;
+  padding-top: 10px;
+  background: rgba(6, 12, 34, 0.596);
+  transition: 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-#servecespage .hotel-img .image-overlay {
-    height: 100%;
-    width: 100%;
-    z-index: 10;
-    text-align: center;
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
+#servicespage .hotel-img .image-overlay {
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  text-align: center;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .serviceBlock-img {
-    flex-grow: 1; 
-    overflow: hidden;
+  flex-grow: 1;
+  overflow: hidden;
 }
-
 
 .btn-order {
   color: #ffffff;
-  background-color: #c29e51;
-  border-color: #c29e51;
-  border: #c29e51 solid 2px;
+  background-color: #e6c375;
+  /* border-color: #e6c375; */
+  border: #e6c375 solid 2px;
   border-radius: 20px;
 }
 
 .btn-order:hover {
-  color: #ffffff;
+  color: #000000;
   background-color: #e0a80000;
   border-color: #d39e00;
 }
 
-.btn-order:focus, .btn-order.focus {
+.btn-order:focus,
+.btn-order.focus {
   box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5);
 }
 
-.btn-order.disabled, .btn-order:disabled {
+.btn-order.disabled,
+.btn-order:disabled {
   color: #212529;
   background-color: #ffc107;
   border-color: #ffc107;
 }
 
-.btn-order:not(:disabled):not(.disabled):active, .btn-order:not(:disabled):not(.disabled).active,
+.btn-order:not(:disabled):not(.disabled):active,
+.btn-order:not(:disabled):not(.disabled).active,
 .show > .btn-order.dropdown-toggle {
   color: #212529;
   background-color: #d39e00;
   border-color: #c69500;
 }
 
-.btn-order:not(:disabled):not(.disabled):active:focus, .btn-order:not(:disabled):not(.disabled).active:focus,
+.btn-order:not(:disabled):not(.disabled):active:focus,
+.btn-order:not(:disabled):not(.disabled).active:focus,
 .show > .btn-order.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5);
 }
@@ -1062,14 +1117,12 @@ Services page
   margin-bottom: 30px;
 }
 
-.card1c{
-  width: 100%;       /* Растягиваем на всю ширину колонки */
-    height: 250px;     /* Устанавливаем фиксированную высоту (подбери нужную) */
-    object-fit: cover; /* МАГИЯ: картинка обрезается, но не сплющивается */
-    display: block;
+.card1c {
+  width: 100%; /* Растягиваем на всю ширину колонки */
+  height: 250px; /* Устанавливаем фиксированную высоту (подбери нужную) */
+  object-fit: cover; /* МАГИЯ: картинка обрезается, но не сплющивается */
+  display: block;
 }
-
-
 
 #speakers .speaker .details {
   background: rgba(6, 12, 34, 0.76);
@@ -1154,7 +1207,6 @@ Services page
   margin-bottom: 10px;
 }
 
-
 #speakers .speaker .renovation {
   background: rgba(6, 12, 34, 0.76);
   position: absolute;
@@ -1237,7 +1289,6 @@ Services page
   font-size: 15px;
   margin-bottom: 10px;
 }
-
 
 #speakers .speaker .details2p {
   background: rgba(6, 12, 34, 0.76);
@@ -1349,7 +1400,8 @@ Services page
   font-weight: 600;
   background-color: #0e1b4d;
   color: #fff;
-  padding: 10px 100px;
+  padding: 10px 50px;
+  margin: 10px;
 }
 
 #schedule .nav-tabs a.active {
@@ -1365,7 +1417,7 @@ Services page
 }
 
 #schedule .tab-pane {
-  transition: ease-in-out .2s;
+  transition: ease-in-out 0.2s;
 }
 
 #schedule .schedule-item {
@@ -1488,109 +1540,82 @@ Services page
 }
 
 /*--------------------------------------------------------------
-# Hotels Section
+# projects Section
 --------------------------------------------------------------*/
 
-#hotels {
-  padding: 60px 0;
+@media (max-width: 767px) {
+  #projects .project {
+    border: 1px solid #e0e5fa;
+    background: #fff;
+    margin-bottom: 30px;
+    height: 500px;
+  }
 }
 
-#hotels .hotel {
+@media (min-width: 767px) {
+  #projects .project {
+    border: 1px solid #e0e5fa;
+    background: #fff;
+    margin-bottom: 30px;
+    height: 400px;
+  }
+}
+
+#projects {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+#projects .project {
   border: 1px solid #e0e5fa;
   background: #fff;
   margin-bottom: 30px;
 }
 
-#hotels .hotel:hover .hotel-img img {
+#projects .project:hover .project-img img {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
 
-#hotels .hotel-img {
+#projects .project-img {
   overflow: hidden;
   margin-bottom: 15px;
 }
 
-#hotels .hotel-img img {
+#projects .project-img img {
   transition: 0.3s ease-in-out;
 }
 
-#hotels h3 {
+#projects .project h3 {
   font-weight: 600;
   font-size: 20px;
   margin-bottom: 5px;
   padding: 0 20px;
 }
 
-#hotels a {
+#projects .project a {
   color: #152b79;
 }
 
-#hotels a:hover {
+#projects .project a:hover {
   color: #e6c375;
 }
 
-#hotels .stars {
+#projects .project .stars {
   padding: 0 20px;
   margin-bottom: 5px;
 }
 
-#hotels .stars i {
+#hoprojectstels .project .stars i {
   color: #ffc31d;
 }
 
-#hotels p {
+#projects .project p {
   padding: 0 20px;
   margin-bottom: 20px;
   color: #060c22;
   font-style: italic;
   font-size: 15px;
-}
-
-/*--------------------------------------------------------------
-# Gallery Section
---------------------------------------------------------------*/
-
-#gallery {
-  padding: 60px;
-  overflow: hidden;
-}
-
-#gallery .owl-nav,
-#gallery .owl-dots {
-  margin-top: 25px;
-  text-align: center;
-}
-
-#gallery .owl-item {
-  border-left: 2px solid #fff;
-  border-right: 2px solid #fff;
-}
-
-#gallery .owl-dot {
-  display: inline-block;
-  margin: 0 5px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: #ddd;
-}
-
-#gallery .owl-dot.active {
-  background-color: #e6c375;
-}
-
-#gallery .gallery-carousel .owl-stage-outer {
-  overflow: visible;
-}
-
-#gallery .gallery-carousel .center {
-  border: 6px solid #e6c375;
-  margin: -10px;
-  box-sizing: content-box;
-  padding: 4px;
-  background: #fff;
-  z-index: 1;
 }
 
 /*--------------------------------------------------------------
@@ -1743,46 +1768,104 @@ Services page
 # Buy Tickets Section
 --------------------------------------------------------------*/
 
-#buy-tickets {
+#cash {
   padding: 60px 0;
+  height: 100vh;
 }
 
-#buy-tickets .card {
+#cash .section-header {
+  background-color: #c0c0c078;
+  padding: 20px 0;
+}
+
+#cash .section-header p {
+  color: #000;
+}
+
+#cash .section-header h2 {
+  color: #e6c375;
+}
+
+#cash .section-header::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 5px;
+  background: #e6c375;
+  bottom: 0;
+  left: auto;
+}
+
+#cash .warning {
+  /* margin: 3rem !important; */
+  background: #000000;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.712) 0%,
+    rgba(230, 195, 117, 1) 100%
+  );
+}
+
+#cash #sdfg1sx {
+  background-color: #c0c0c078;
+  /* margin: 10px 20px; */
+  padding: 20px 0;
+}
+
+#cash #sdfg1sx::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 5px;
+  background: #e6c375;
+  top: 0;
+  left: auto;
+}
+
+
+#cash-body .card {
   border: none;
   border-radius: 5px;
-  transition: all  0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   box-shadow: 0 10px 25px 0 rgba(6, 12, 34, 0.1);
 }
 
-#buy-tickets .card:hover {
+#cash-body .card:hover {
   box-shadow: 0 10px 35px 0 rgba(6, 12, 34, 0.2);
 }
 
-#buy-tickets .card hr {
+#cash-body .card hr {
   margin: 25px 0;
 }
 
-#buy-tickets .card .card-title {
+#cash-body .card .card-title {
   margin: 10px 0;
   font-size: 14px;
   letter-spacing: 1px;
   font-weight: bold;
 }
 
-#buy-tickets .card .card-price {
-  font-size: 48px;
+#cash-body .card .card-price {
+  font-size: 35px;
   margin: 0;
 }
 
-#buy-tickets .card ul li {
+#cash-body .card ul li {
   margin-bottom: 20px;
 }
 
-#buy-tickets .card .text-muted {
+#cash-body .card .text-muted {
   opacity: 0.7;
 }
 
-#buy-tickets .card .btn {
+#cash-body .card .card-body .fa-ul {
+  font-size: 13px;
+  /* margin: 0; */
+}
+
+#cash-body .card .btn {
   font-size: 15px;
   border-radius: 50px;
   padding: 10px 40px;
@@ -1792,16 +1875,16 @@ Services page
   color: #fff;
 }
 
-#buy-tickets .card .btn:hover {
+#cash-body .card .btn:hover {
   background-color: #e6c375;
 }
 
-#buy-tickets #buy-ticket-modal input,
-#buy-tickets #buy-ticket-modal select {
+#cash-body #buy-ticket-modal input,
+#cash-body #buy-ticket-modal select {
   border-radius: 0;
 }
 
-#buy-tickets #buy-ticket-modal .btn {
+#cash-body #buy-ticket-modal .btn {
   font-size: 15px;
   border-radius: 50px;
   padding: 10px 40px;
@@ -1811,8 +1894,428 @@ Services page
   color: #fff;
 }
 
-#buy-tickets #buy-ticket-modal .btn:hover {
+#cash-body #buy-ticket-modal .btn:hover {
   background-color: #e6c375;
+}
+
+
+
+#cash-body-cards .card {
+  border: none;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 10px 25px 0 rgba(6, 12, 34, 0.1);
+}
+
+#cash-body-cards .card:hover {
+  box-shadow: 0 10px 35px 0 rgba(6, 12, 34, 0.2);
+}
+
+#cash-body-cards .card hr {
+  margin: 25px 0;
+}
+
+#cash-body-cards .card .card-title {
+  margin: 10px 0;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+#cash-body-cards .card .card-price {
+  font-size: 35px;
+  margin: 0;
+}
+
+#cash-body-cards .card ul li {
+  margin-bottom: 20px;
+}
+
+#cash-body-cards .card .text-muted {
+  opacity: 0.7;
+}
+
+#cash-body-cards .card .card-body .fa-ul {
+  font-size: 13px;
+  /* margin: 0; */
+}
+
+#cash-body-cards .card .btn {
+  font-size: 15px;
+  border-radius: 50px;
+  padding: 10px 40px;
+  transition: all 0.2s;
+  background-color: #e6c375;
+  border: 0;
+  color: #fff;
+}
+
+#cash-body-cards .card .btn:hover {
+  background-color: #e6c375;
+}
+
+#cash-body-cards #buy-ticket-modal input,
+#cash-body-cards #buy-ticket-modal select {
+  border-radius: 0;
+}
+
+#cash-body-cards #buy-ticket-modal .btn {
+  font-size: 15px;
+  border-radius: 50px;
+  padding: 10px 40px;
+  transition: all 0.2s;
+  background-color: #e6c375;
+  border: 0;
+  color: #fff;
+}
+
+#cash-body-cards #buy-ticket-modal .btn:hover {
+  background-color: #e6c375;
+}
+
+.thead-table {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  text-align: center;
+  background-color: #636363;
+  color: #eee;
+}
+
+.tbody-table {
+  color: #000000;
+  background-color: #ffffffb9;
+  /* border-top: 4px solid #000; */
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.table {
+  box-shadow: 5px 10px 25px 5px rgba(6, 12, 34, 0.295);
+  color: #868686;
+  border-radius: 15px;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+}
+
+.btns2f {
+  height: 212px;
+}
+
+.btns2f .btn-order {
+  width: 400px;
+  height: 100px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+}
+
+.btns2f .btn-order p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+}
+
+#cash-body-cards {
+  width: 100%;
+  padding-right: 25px;
+  padding-left: 25px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.mod{
+  max-height: 100;
+  max-width: 900px;
+  padding-right: 25px;
+  padding-left: 25px;
+  margin-right: auto;
+  margin-left: auto
+}
+
+.info-sticker {
+  margin: 50px 0;
+  position: relative;
+  max-width: 554px;
+  background-color: #d93d31; /* Червоний колір як на фото */
+  color: #ffffff;
+  padding: 30px 20px;
+  border-radius: 10px;
+  font-family: "Open Sans", sans-serif;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  /* Ефект загнутого куточка */
+  /* background: linear-gradient(135deg, transparent 30px, #d93d31 0); */
+  background: linear-gradient(-135deg, #00000014 30px, #d93d0b 0);
+}
+
+/* Сам загнутий куточок */
+.info-sticker:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 42px;
+  height: 42px;
+  background: rgba(0, 0, 0, 0.15); /* Тінь під куточком */
+  /* border-bottom-left-radius: 10px; */
+  /* Градієнт для створення вигляду паперу, що загнувся */
+  /* background: linear-gradient(45deg, #f05a4e 50%, #ffffff 50%); */
+  display: block;
+
+  border-bottom-left-radius: 10px;
+  background: linear-gradient(45deg, #f05a4e 50%, #ffffff00 50%);
+
+  box-shadow: -5px 5px 10px 1px rgba(0, 0, 0, 0.3);
+}
+
+.sticker-title {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+
+.sticker-text {
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 25px;
+  font-weight: 400;
+}
+
+/* Кнопка як на фото */
+.sticker-btn {
+  display: inline-block;
+  background-color: #ffc107; /* Жовтий колір */
+  color: #000000;
+  text-decoration: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 16px;
+  transition:
+  transform 0.2s,
+  background-color 0.2s;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sticker-btn:hover {
+  background-color: #e0a800;
+  transform: scale(1.05);
+  color: #000;
+  text-decoration: none;
+}
+
+/* Додаємо стани focus, active та visited */
+.sticker-btn, 
+.sticker-btn:focus, 
+.sticker-btn:active,
+.sticker-btn:visited {
+  display: inline-block;
+  background-color: #ffc107;
+  color: #000000 !important; /* !important гарантує, що колір не переб'ють інші стилі */
+  text-decoration: none;
+  /* ... інші твої стилі ... */
+}
+
+.sticker-btn:hover {
+  background-color: #e0a800;
+  transform: scale(1.05);
+  color: #000000 !important;
+  text-decoration: none;
+}
+
+.sticker-footer {
+  font-size: 12px;
+  opacity: 0.9;
+  font-style: italic;
+}
+
+@media (max-width: 576px) {
+  .cash {
+    max-width: 540px;
+  }
+
+
+  #cash .warning .btn-cash-btn{
+    font-size: 7px;
+  }
+
+  .warning h3{
+    font-size: 16px;
+  }
+
+  #cash .warning{
+    padding-top: 0;
+    margin: 0;
+  }
+
+  .hh12{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .hh10{
+    font-size: 10px;
+  }
+
+  #cash #sdfg1sx {
+  background-color: #c0c0c078;
+  margin: 20px 1px;
+  padding: 20px 0;
+  }
+
+
+  #cash {
+    background: url("../img/cash/backGround.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    /* color: #fff; */
+    padding: 60px 0 40px 0;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+  .cash {
+    max-width: 540px;
+  }
+
+  #cash .warning {
+  margin: 1rem !important;
+  }
+
+    .warning h3{
+    font-size: 18px;
+  }
+
+  #cash .warning .btn-cash-btn{
+    font-size: 10px;
+  }
+
+  .hh12{
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .hh10{
+    font-size: 12px;
+  }
+
+  #cash #sdfg1sx {
+  background-color: #c0c0c078;
+  margin: 20px 5px;
+  padding: 20px 0;
+  }
+
+  #cash {
+    background: url("../img/cash/backGround.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    /* color: #fff; */
+    padding: 60px 0 40px 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .cash {
+    max-width: 720px;
+  }
+
+
+  #cash {
+    background: url("../img/cash/backGround.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    /* color: #fff; */
+    padding: 60px 0 40px 0;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .cash {
+    max-width: 1020px;
+  }
+
+    #cash .warning {
+  margin: 3rem !important;
+  }
+
+    .warning h3{
+    font-size: 20px;
+  }
+
+  .hh12{
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .hh10{
+    font-size: 16px;
+  }
+
+  #cash #sdfg1sx {
+  background-color: #c0c0c078;
+  margin: 20px 10px;
+  padding: 20px 0;
+  }
+
+  #cash {
+    background: url("../img/cash/backGroundARM.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    /* color: #fff; */
+    padding: 60px 0 40px 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cash {
+    max-width: 1240px;
+  }
+
+  #cash .warning .btn-cash-btn{
+    font-size: 14px;
+  }
+
+  .hh12{
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .hh10{
+    font-size: 20px;
+  }
+
+  #cash #sdfg1sx {
+  background-color: #c0c0c078;
+  margin: 20px 15px;
+  padding: 20px 0;
+  }
+
+  #cash {
+    background: url("../img/cash/backGroundARM.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    /* color: #fff; */
+    padding: 60px 0 40px 0;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -2069,54 +2572,56 @@ Services page
   color: #ddd;
 }
 
-
 /* ---------------------------------------------------------- */
 
 .form-select {
-    --bs-form-select-bg-img: url(../img/yes.svg);
-    display: block;
-    width: 100%;
-    padding: .375rem 2.25rem .375rem .75rem;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: var(--bs-body-color);
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background-color: var(--bs-body-bg);
-    background-image: var(--bs-form-select-bg-img), var(--bs-form-select-bg-icon, none);
-    background-repeat: no-repeat;
-    background-position: right .75rem center;
-    background-size: 16px 12px;
-    border: 1px solid #ced4da;
-    border-radius: .25rem;
-    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  --bs-form-select-bg-img: url(../img/yes.svg);
+  display: block;
+  width: 100%;
+  padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--bs-body-color);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: var(--bs-body-bg);
+  background-image:
+    var(--bs-form-select-bg-img), var(--bs-form-select-bg-icon, none);
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition:
+    border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
 }
 
-.quest2{
-  border: 2px solid #2c3e50; 
-  padding: 30px; 
-  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.2); 
+.quest2 {
+  border: 2px solid #2c3e50;
+  padding: 30px;
+  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
 }
 
-.quest3{
-  border: 2px solid #2c3e50; 
-  padding: 30px; 
+.quest3 {
+  border: 2px solid #2c3e50;
+  padding: 30px;
   margin: 0 10px;
-  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.2); 
+  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
 }
 
 #vacancy form button[type="submit"] {
-    background: #e6c375;
-    border: 0;
-    padding: 10px 40px;
-    color: #fff;
-    transition: 0.4s;
-    border-radius: 50px;
-    cursor: pointer;
+  background: #e6c375;
+  border: 0;
+  padding: 10px 40px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+  cursor: pointer;
 }
 
 /*--------------------------------------------------------------
@@ -2130,38 +2635,37 @@ Services page
 }
 
 @media (min-width: 768px) {
-    .quest2{
-  border: 2px solid #2c3e50; 
-  padding: 30px; 
-  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.2); 
-  border-radius: 8px;
-}
+  .quest2 {
+    border: 2px solid #2c3e50;
+    padding: 30px;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+  }
 
-.quest3{
-  border: 2px solid #2c3e50; 
-  padding: 30px; 
-  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.2); 
-  border-radius: 8px;
-  display: none !important;
-}
+  .quest3 {
+    border: 2px solid #2c3e50;
+    padding: 30px;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    display: none !important;
+  }
 }
 
 @media (max-width: 767px) {
-  
-  .quest2{
-  border: 2px solid #2c3e50; 
-  padding: 30px; 
-  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.2); 
-  border-radius: 8px;
-  display: none !important;
-}
+  .quest2 {
+    border: 2px solid #2c3e50;
+    padding: 30px;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    display: none !important;
+  }
 
-.quest3{
-  border: 2px solid #2c3e50; 
-  padding: 30px; 
-  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.2); 
-  border-radius: 8px;
-}
+  .quest3 {
+    border: 2px solid #2c3e50;
+    padding: 30px;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -2175,8 +2679,6 @@ Services page
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
   }
-
-
 }
 
 @media (min-width: 991px) {
@@ -2254,6 +2756,25 @@ Services page
   #faq #faq-list i {
     top: 13px;
   }
+
+  #cash .section-header h2 {
+    color: #e6c375;
+    font-size: 26px;
+  }
+
+  #cash .section-header p {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  #cash .table {
+    font-size: 14px;
+  }
+
+  #cash .table thead {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -2266,6 +2787,21 @@ Services page
   #venue .venue-info h3 {
     font-size: 24px;
   }
+
+  #cash .section-header h2 {
+    color: #e6c375;
+    font-size: 20px;
+  }
+
+  #cash .section-header p {
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  #cash .table {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -2277,5 +2813,10 @@ Services page
 @media (max-width: 460px) {
   #subscribe button {
     margin-top: 10px;
+  }
+
+  #cash .table {
+    font-size: 10px;
+    font-weight: 600;
   }
 }
