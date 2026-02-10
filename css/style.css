@@ -2318,6 +2318,133 @@ Services page
   }
 }
 
+
+/*--------------------------------------------------------------
+# Modal Cash
+--------------------------------------------------------------*/
+
+
+
+.calc-container {
+    /* max-width: 800px; */
+    margin: 0 ;
+    border: 1px solid #eee;
+}
+
+.step-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Стиль для кнопок-плиток */
+.btn-check:checked + .btn-outline-dark {
+    background-color: #343a40;
+    color: #ffc107 !important;
+    border-color: #343a40;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.btn-outline-dark {
+    border: 2px solid #dee2e6;
+    transition: all 0.3s ease;
+}
+
+/* Повзунок Range */
+.form-range::-webkit-slider-thumb {
+    background: #ffc107;
+}
+
+.calc-result {
+    border-top: 5px solid #ffc107;
+}
+
+/* Контейнер для повзунка */
+.range-container {
+    padding: 10px 0;
+}
+
+/* Базовий стиль лінійки */
+.custom-range {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+    background: #dee2e6;
+    border-radius: 5px;
+    outline: none;
+    transition: background 0.3s;
+}
+
+.custom-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 24px;
+    height: 24px;
+    background: #ffc107;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 3px solid #343a40;
+    box-shadow: 0 0 10px rgba(255, 193, 7, 0.4);
+    transition: transform 0.2s ease;
+}
+
+.custom-range::-webkit-slider-thumb:hover {
+    transform: scale(1.2);
+    background: #e0a800;
+}
+
+.custom-range::-moz-range-thumb {
+    width: 24px;
+    height: 24px;
+    background: #ffc107;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 3px solid #343a40;
+}
+
+/* Робимо інпути точок зручнішими для кліку */
+.extra-count {
+    border-radius: 0 5px 5px 0;
+    border: 1px solid #ffc107;
+    max-width: 80px;
+}
+
+/* Кастомізація перемикачів (Switch) під стиль VitaBuild */
+.form-check-input:checked {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.25);
+    border-color: #ffc107;
+}
+
+/* Ефект "плитки" для блоків додатково */
+.shadow-sm:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1) !important;
+    transition: 0.3s;
+}
+
+.quiz-step {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateX(20px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@media (max-width: 496px) {
+  #step-5 button {
+    font-size: 12px;
+  }
+}
+
+/* Приховування через Bootstrap клас d-none ми будемо знімати в JS */
+
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
